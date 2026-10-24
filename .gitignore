@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+data/
+results_partial.csv
+anomaly_detection_results_raw.csv

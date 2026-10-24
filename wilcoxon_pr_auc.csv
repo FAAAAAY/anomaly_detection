@@ -1,0 +1,26 @@
+﻿Dataset,Лучший,Сравнивается с,ΔPR-AUC,p (Wilcoxon)
+Breast Cancer (контроль),KNN,Elliptic Envelope,0.042,0.002
+Breast Cancer (контроль),KNN,Isolation Forest,0.032,0.002
+Breast Cancer (контроль),KNN,LOF,0.144,0.002
+Breast Cancer (контроль),KNN,Mahalanobis,0.047,0.002
+Breast Cancer (контроль),KNN,One-Class SVM,0.173,0.002
+Credit Card Fraud,LOF,Elliptic Envelope,0.287,0.002
+Credit Card Fraud,LOF,Isolation Forest,0.19,0.002
+Credit Card Fraud,LOF,KNN,0.204,0.002
+Credit Card Fraud,LOF,Mahalanobis,0.255,0.002
+Credit Card Fraud,LOF,One-Class SVM,0.266,0.002
+Ionosphere,Elliptic Envelope,Isolation Forest,0.147,0.002
+Ionosphere,Elliptic Envelope,KNN,0.026,0.002
+Ionosphere,Elliptic Envelope,LOF,0.063,0.002
+Ionosphere,Elliptic Envelope,Mahalanobis,0.026,0.0059
+Ionosphere,Elliptic Envelope,One-Class SVM,0.045,0.002
+Mammography,Isolation Forest,Elliptic Envelope,0.114,0.002
+Mammography,Isolation Forest,KNN,0.028,0.0137
+Mammography,Isolation Forest,LOF,0.039,0.0098
+Mammography,Isolation Forest,Mahalanobis,0.019,0.0645
+Mammography,Isolation Forest,One-Class SVM,0.003,0.8457
+Wilt,Elliptic Envelope,Isolation Forest,0.117,0.002
+Wilt,Elliptic Envelope,KNN,0.104,0.002
+Wilt,Elliptic Envelope,LOF,0.058,0.002
+Wilt,Elliptic Envelope,Mahalanobis,0.085,0.002
+Wilt,Elliptic Envelope,One-Class SVM,0.119,0.002

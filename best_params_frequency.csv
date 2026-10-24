@@ -1,0 +1,36 @@
+﻿Dataset,Algorithm,Best params
+Breast Cancer (контроль),Elliptic Envelope,"{""{'support_fraction': None}"": 9, ""{'support_fraction': 0.8}"": 1}"
+Breast Cancer (контроль),Isolation Forest,"{""{'n_estimators': 300, 'max_samples': 256}"": 5, ""{'n_estimators': 100, 'max_samples': 256}"": 3, ""{'n_estimators': 300, 'max_samples': 1024}"": 2}"
+Breast Cancer (контроль),KNN,"{""{'n_neighbors': 100}"": 9, ""{'n_neighbors': 50}"": 1}"
+Breast Cancer (контроль),LOF,"{""{'n_neighbors': 200, 'novelty': True}"": 8, ""{'n_neighbors': 100, 'novelty': True}"": 2}"
+Breast Cancer (контроль),Mahalanobis,{'{}': 10}
+Breast Cancer (контроль),One-Class SVM,"{""{'gamma': 'scale', 'nu': 0.4}"": 10}"
+Breast Cancer (контроль),Random,{'{}': 10}
+Credit Card Fraud,Elliptic Envelope,"{""{'support_fraction': 0.8}"": 8, ""{'support_fraction': None}"": 2}"
+Credit Card Fraud,Isolation Forest,"{""{'n_estimators': 300, 'max_samples': 1024}"": 5, ""{'n_estimators': 100, 'max_samples': 1024}"": 5}"
+Credit Card Fraud,KNN,"{""{'n_neighbors': 50}"": 8, ""{'n_neighbors': 100}"": 2}"
+Credit Card Fraud,LOF,"{""{'n_neighbors': 100, 'novelty': True}"": 7, ""{'n_neighbors': 200, 'novelty': True}"": 3}"
+Credit Card Fraud,Mahalanobis,{'{}': 10}
+Credit Card Fraud,One-Class SVM,"{""{'gamma': 0.01, 'nu': 0.05}"": 10}"
+Credit Card Fraud,Random,{'{}': 10}
+Ionosphere,Elliptic Envelope,"{""{'support_fraction': None}"": 5, ""{'support_fraction': 0.8}"": 5}"
+Ionosphere,Isolation Forest,"{""{'n_estimators': 100, 'max_samples': 256}"": 7, ""{'n_estimators': 300, 'max_samples': 256}"": 3}"
+Ionosphere,KNN,"{""{'n_neighbors': 5}"": 9, ""{'n_neighbors': 10}"": 1}"
+Ionosphere,LOF,"{""{'n_neighbors': 20, 'novelty': True}"": 5, ""{'n_neighbors': 50, 'novelty': True}"": 4, ""{'n_neighbors': 5, 'novelty': True}"": 1}"
+Ionosphere,Mahalanobis,{'{}': 10}
+Ionosphere,One-Class SVM,"{""{'gamma': 0.1, 'nu': 0.4}"": 6, ""{'gamma': 0.1, 'nu': 0.01}"": 4}"
+Ionosphere,Random,{'{}': 10}
+Mammography,Elliptic Envelope,"{""{'support_fraction': 0.8}"": 7, ""{'support_fraction': None}"": 3}"
+Mammography,Isolation Forest,"{""{'n_estimators': 300, 'max_samples': 256}"": 7, ""{'n_estimators': 100, 'max_samples': 256}"": 3}"
+Mammography,KNN,"{""{'n_neighbors': 20}"": 5, ""{'n_neighbors': 10}"": 2, ""{'n_neighbors': 50}"": 2, ""{'n_neighbors': 100}"": 1}"
+Mammography,LOF,"{""{'n_neighbors': 100, 'novelty': True}"": 5, ""{'n_neighbors': 50, 'novelty': True}"": 4, ""{'n_neighbors': 200, 'novelty': True}"": 1}"
+Mammography,Mahalanobis,{'{}': 10}
+Mammography,One-Class SVM,"{""{'gamma': 0.01, 'nu': 0.4}"": 4, ""{'gamma': 0.1, 'nu': 0.2}"": 3, ""{'gamma': 'scale', 'nu': 0.2}"": 2, ""{'gamma': 0.1, 'nu': 0.1}"": 1}"
+Mammography,Random,{'{}': 10}
+Wilt,Elliptic Envelope,"{""{'support_fraction': None}"": 10}"
+Wilt,Isolation Forest,"{""{'n_estimators': 100, 'max_samples': 1024}"": 7, ""{'n_estimators': 300, 'max_samples': 1024}"": 2, ""{'n_estimators': 100, 'max_samples': 256}"": 1}"
+Wilt,KNN,"{""{'n_neighbors': 5}"": 10}"
+Wilt,LOF,"{""{'n_neighbors': 5, 'novelty': True}"": 9, ""{'n_neighbors': 10, 'novelty': True}"": 1}"
+Wilt,Mahalanobis,{'{}': 10}
+Wilt,One-Class SVM,"{""{'gamma': 0.01, 'nu': 0.01}"": 9, ""{'gamma': 'scale', 'nu': 0.01}"": 1}"
+Wilt,Random,{'{}': 10}
